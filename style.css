@@ -1,0 +1,36 @@
+
+body{
+    background-color: rgb(134, 131, 131);
+}
+.container{
+    margin: 50px auto;
+    width: fit-content;
+    position:relative ;
+}
+.slide{
+    height: 500px;
+    width: 700px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+.icons{
+    height: 90px;
+    position: absolute;
+    cursor: pointer;
+    transition: 0.4s;
+
+}
+.icon-prev{
+    left:0;
+    top:40%;
+}
+.icon-prev:hover{
+    transform: scale(0.8) translateX(-15px);
+}
+.icon-next{
+    right: 0;
+    top: 40%;
+}
+.icon-next:hover{
+    transform: scale(0.8) translateX(15px);
+}
